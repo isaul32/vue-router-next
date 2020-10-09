@@ -10,7 +10,8 @@ jobs:
       CI_JOB_NUMBER: 1
     steps:
       - uses: actions/checkout@v1
-      - uses: posva/size-check-action@v1.0.0
+      - uses: posva/size-check-action@v1.0.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           build_script: build:size
+          files: dist/vue-router.global.prod.js size-checks/dist/webRouter.js
