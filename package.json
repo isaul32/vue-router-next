@@ -51,10 +51,6 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "sizeCheck": [
-    "dist/vue-router.global.prod.js",
-    "size-checks/dist/webRouter.js"
-  ],
   "peerDependencies": {
     "vue": "^3.0.0"
   },
