@@ -10,7 +10,7 @@ jobs:
       CI_JOB_NUMBER: 1
     steps:
       - uses: actions/checkout@v1
-      - uses: posva/size-check-action@v1.0.1
+      - uses: posva/size-check-action@v1.0.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           build_script: build:size
